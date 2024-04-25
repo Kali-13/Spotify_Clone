@@ -39,7 +39,7 @@ function formatSeconds(seconds) {
 
 let currentsong = new Audio();
 async function getsongs() {
-  let a = await fetch("https://kali-13.github.io/Spotify_Clone/Songs/");
+  let a = await fetch("https://github.com/Kali-13/Spotify_Clone/blob/main/Songs/");
   let response = await a.text();
   //    console.log(response)
   let div = document.createElement("div");
